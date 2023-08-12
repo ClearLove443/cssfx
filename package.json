@@ -1,0 +1,23 @@
+{
+  "name": "cssfx",
+  "private": true,
+  "description": "Beautifully simple click-to-copy CSS effects",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "highlight.js": "^11.8.0",
+    "sass": "^1.65.1",
+    "v-clipboard": "3.0.0-next.1",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@highlightjs/vue-plugin": "^2.1.0",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.4.5"
+  }
+}
