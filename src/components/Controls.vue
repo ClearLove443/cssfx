@@ -31,10 +31,13 @@
         ></path>
       </svg>
 
-      <EffectFilter label="Buttons" v-model="filters.button"/>
-      <EffectFilter label="Inputs" v-model="filters.input"/>
-      <EffectFilter label="Loaders" v-model="filters.loader"/>
-      <EffectFilter label="Text" v-model="filters.text"/>
+      <!-- <div>我是父组件</div>
+      <pre>我是父子组件同步的数据：{{ filters }}</pre> 
+      v-model:子组件="父组件"-->
+      <EffectFilter label="Buttons" v-model:checked="filters.button"/>
+      <EffectFilter label="Inputs" v-model:checked="filters.input"/>
+      <EffectFilter label="Loaders" v-model:checked="filters.loader"/>
+      <EffectFilter label="Text" v-model:checked="filters.text"/>
     </div>
   </div>
 </template>

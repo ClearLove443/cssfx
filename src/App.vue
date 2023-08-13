@@ -11,7 +11,16 @@ import Controls from "./components/Controls.vue";
 import { effects } from "./assets/effects.js";
 import { shuffleEffects } from "./assets/utils.js";
 
+// import { ref } from "vue";
+// import Child from "./Child.vue";
+
+// const money = ref(10000);
+
 export default {
+  // components: { Navbar, Header, Effects, Inspect, Controls, Child },
+  // data() {
+  //   return { effects, inspecting: false, inspectSrc: {}, money };
+  // },
   components: { Navbar, Header, Effects, Inspect, Controls },
   data() {
     return { effects, inspecting: false, inspectSrc: {} };
@@ -53,6 +62,10 @@ export default {
       <Inspect v-if="inspecting" :src="inspectSrc" @close="closeInspect"/>
     </transition>
     <Controls @shuffle="shuffle" @reset="reset" @filter="filter"/>
+
+    <!-- <div>我是父组件</div>
+    <pre>我是父子组件同步的数据：{{ money }}</pre>
+    <Child v-model="money"></Child> -->
   </div>
 </template>
 

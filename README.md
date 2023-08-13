@@ -3,7 +3,7 @@
   <h3 align="center">Beautifully simple click-to-copy CSS effects</h3>
 </p>
 <p align="center">
-  <a href="https://cssfx.netlify.app/">https://cssfx.netlify.app/</a>
+  <a href="https://clearlove443.github.io/cssfx/">https://clearlove443.github.io/cssfx/</a>
 </p>
 
 # Vue 3 + Vite
